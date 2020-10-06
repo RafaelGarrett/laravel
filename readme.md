@@ -1,3 +1,9 @@
+## Projeto Lifemasters Guide
+
+Fluxo: inicia-se um trabalho escolhendo uma área. Escolhido a área a ser trabalhanda, temos a opção de executar as tarefas diariamente. No final de cada tarefa, ao editar, temos que adicionar os campos de energia e objetivos alcançados. Após atingir o "habito" as tarefas são finalizadas e devemos adicionar a nota a área escolhida após este processo. Feito isso temos o número de objetivos alcançados e a nota inicial versus a nota final.
+
+**constant.php** - variável "habito" para configurar o número de tarefas, sendo uma tarefa por dia. Segundo estudos, são necessários 21 dias para mudar um hábito, mas para fins de teste, deixei 2.    
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
