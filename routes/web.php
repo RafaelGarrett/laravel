@@ -31,5 +31,7 @@ Route::get('/logout','LoginController@logout');
 Route::get('/register','RegisterController@create');
 Route::post('/register','RegisterController@store');
 
+Route::delete('/user/{id}','UserController@destroy');
+
 Route::get('/home', 'HomeController@index');
 Route::get('/estabelecimentos', 'EstabelecimentoController@index');

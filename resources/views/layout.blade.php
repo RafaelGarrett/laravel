@@ -13,6 +13,12 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2">
             <a class="navbar navbar-expand-lg" href="{{ route('listar_avaliacao') }}">Home</a>
             <a href="/logout" class="text-danger">Sair</a>
+            <form method="post" class="navbar" action="/user/{{Auth::id()}}"
+                onsubmit="return confirm('Tem certeza que deseja remover sua conta?')">
+                @csrf
+                @method('DELETE')
+                <button class="btn btn-danger btn-sm btn-sm mr-2">Excluir conta</button>
+            </form>
         </nav>
     @endauth
     <div class="container">
